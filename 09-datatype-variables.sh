@@ -11,3 +11,10 @@ COUNT=COUNT+1
 echo "Count = $COUNT"
 
 
+FRUITS = ("BANANA","APPLE" , "PINEAPPLE", "ORANGE" )
+
+echo "First fruit is ${FRUITS[0]}"
+echo "All fruits are ${FRUITS[@]}"
+name="V Pujya Ganesh"
+echo "${name}Karthik"
+
